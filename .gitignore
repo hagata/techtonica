@@ -1,4 +1,6 @@
 .DS_Store
 .sass-cache/
 css/style.css.map
+node_modules/
+_dist/
 *.pyc

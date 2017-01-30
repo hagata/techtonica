@@ -25,10 +25,25 @@ Install the project dependencies. In the project root run:
 $ pip install -r requirements.txt
 ```
 
+Install Webpack globally, if it is not already installed.
+```
+$ npm install gulp -g
+```
+
+Build with gulp
+```
+$ gulp
+```
+
+Export the flask app
+```
+$ export  FLASK_APP=_dist/main_site.py
+```
+
 Start the application's server:
 
 ```
-$ FLASK_APP=main_site.py flask run
+$ flask run
 ```
 
 Browse to `localhost:5000`

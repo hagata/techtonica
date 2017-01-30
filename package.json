@@ -1,0 +1,35 @@
+{
+  "name": "techtonica",
+  "version": "1.0.0",
+  "description": "This repo is for [the Techtonica website](http://techtonica.org), which is currently hosted on Bluehost.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.7.0",
+    "babel-preset-es2015": "^6.22.0",
+    "cssnano": "^3.10.0",
+    "eslint": "^3.14.1",
+    "eslint-config-google": "^0.7.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify": "0.0.14",
+    "gulp-postcss": "^6.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelleGlauser/techtonica.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichelleGlauser/techtonica/issues"
+  },
+  "homepage": "https://github.com/MichelleGlauser/techtonica#readme"
+}
